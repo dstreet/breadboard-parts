@@ -1,0 +1,17 @@
+{
+  "name": "breaboard-parts",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm -w api run test",
+    "start:dev": "concurrently \"npm -w api run start:dev\" \"npm -w client run start\""
+  },
+  "author": "David Street <street.davide@gmail.com>",
+  "license": "ISC",
+  "workspaces": [
+    "packages/api",
+    "packages/client"
+  ],
+  "private": true
+}
