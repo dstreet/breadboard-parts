@@ -11,8 +11,10 @@ Install the necessary dependencies
 $ npm install
 ```
 
-Create a `.env` file for the API but copying `.env.example` and replacing the
+Create a `.env` file for the API by copying `packages/api/.env.example` and replacing the
 appropriate values.
+
+Create a `.env.local` file for the client by copying `packages/client/.env.local.example`.
 
 ## Running
 
